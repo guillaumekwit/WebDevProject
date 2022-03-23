@@ -1,0 +1,16 @@
+td {
+    color: white;
+}
+th {
+    color:white;
+}
+tr {
+    border-color:aqua;
+}
+.table-fill {
+    background-color: black;
+    border-style: solid;
+    border-color: aqua;
+    height: 75%;
+    width: 95%;
+}
