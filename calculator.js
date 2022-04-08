@@ -8,8 +8,9 @@ window.onload = function(){
 		let oneRepMax = calculateOneRep(firstWeight, firstReps);
 
 		//change h2 to list one rep max weight
+		let unit = document.getElementById("unit").value; //grabs unit (kg or lb)
 		let ormHeader = document.getElementById("ormHeader");
-		ormHeader.innerHTML = "Your one-rep max is: " + oneRepMax;
+		ormHeader.innerHTML = "Your one-rep max is: " + oneRepMax + " " + unit + "s";
 
 		//if table already exists, delete
 		let existingRows = document.querySelectorAll('tr');
@@ -29,8 +30,7 @@ window.onload = function(){
 
 		//initialize table
 		let table = document.getElementById("tableBody");
-		let unit = document.getElementById("unit").value; //grabs unit (kg or lb)
-
+		
 		for (i=1; i<=30; i++){
 			let weightText = calculateWeight(oneRepMax, i)
 			let percentText = calculatePercent(i);
