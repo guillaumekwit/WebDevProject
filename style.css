@@ -5,12 +5,33 @@ th {
     color:white;
 }
 tr {
-    border-color:aqua;
+    border-color: red;
 }
-.table-fill {
+table {
     background-color: black;
     border-style: solid;
-    border-color: aqua;
-    height: 75%;
-    width: 95%;
+    border-color: red;
+}
+table:hover {
+    background-color: black;
+    border-style: solid;
+    border-color: red;
+    box-shadow: 3px 3px black
+}
+body {
+    background-color: dimgray;
+}
+h1 {
+    color: white;
+    background-color: black;
+}
+.column {
+    display: inline-block;
+    width: 425px;
+}
+img {
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: 25%;
 }
