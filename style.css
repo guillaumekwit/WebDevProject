@@ -13,6 +13,7 @@ table {
     box-shadow:  5px 5px 0px red;
     border-radius: 7px;
     margin: 3%;
+    
 }
 table:hover {
     background-color: black;
@@ -89,4 +90,5 @@ img {
   #main {
     transition: margin-left .5s;
     padding: 16px;
+    margin: auto;
   }
