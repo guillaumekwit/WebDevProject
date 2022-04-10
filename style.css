@@ -30,6 +30,10 @@ h1 {
 h2{
     padding-left: 15px;
 }
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
 .column {
     display: inline-block;
     width: 420px;
@@ -90,5 +94,4 @@ img {
   #main {
     transition: margin-left .5s;
     padding: 16px;
-    margin: auto;
   }
