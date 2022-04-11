@@ -1,13 +1,23 @@
 <html>
 <head>
+    <title>One-Rep Max Calculator</title>
     <link href="calcStyle.css" rel="stylesheet"/>
     <script type="text/javascript" src="calculator.js"></script>
-    <h1>One Rep Max Calculator</h1>
-    <p>Calculate your one-rep max (1RM) for any lift. Your one-rep max is the max weight you can lift for a single repetition for a given exercise.</p>
 </head>
 <body>
+    <div id="main">
+    <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick=closeNav()>×</a>
+            <a href="#">1RM Calculator</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
+        <button class="openbtn" onclick=openNav()>☰</button>
+    <h1>One Rep Max Calculator</h1>
     <form action="" method="post">
         <div>
+            <p>Calculate your one-rep max (1RM) for any lift. Your one-rep max is the max weight you can lift for a single repetition for a given exercise.</p>
             <div><label for="liftmass"> Lift </label></div>
             <div>
                 <div>
@@ -22,6 +32,7 @@
             </div>
         </div>
         <div>
+
             <div><label for="repetitions">Repetitions</label></div>
             <!formula breaks after 40, limit to 30 as above that you're doing too much>
             <div><input max="30" min="1" name="repetitions" type="number" id="reps" autocomplete="off"/></div>
@@ -46,5 +57,18 @@
         <tbody id="tableBody">
         </tbody>
     </table>
+    <div>
+    <script>
+            function openNav() {
+              document.getElementById("mySidebar").style.width = "250px";
+              document.getElementById("main").style.marginLeft = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidebar").style.width = "0px";
+              document.getElementById("main").style.marginLeft= "0px";
+            }
+        </script>
+
 </body>
 </html>
