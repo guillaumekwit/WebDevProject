@@ -13,12 +13,6 @@ table {
     box-shadow:  5px 5px 0px red;
     border-radius: 7px;
     margin: 3%;
-    
-}
-table:hover {
-    background-color: black;
-    border: solid black;
-    box-shadow: 5px 5px 0px red;
 }
 body {
     background-color: dimgray;
@@ -39,10 +33,10 @@ h2{
     width: 420px;
 }
 img {
-    width: 50%;
+    width: 75%;
     height: auto;
     position: relative;
-    left: 25%;
+    left: 12.5%;
 }
 .sidebar {
     height: 100%;
