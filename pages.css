@@ -10,6 +10,7 @@ table {
     box-shadow:  5px 5px 0px red;
     border-radius: 7px;
     margin: 3%;  
+    float: left;
 }
 
 .sidebar {
@@ -66,4 +67,14 @@ table {
   }
   body {
     background-color: dimgray;
+}
+html{
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+h1{
+  background-color: black;
+  color: white;
 }
